@@ -1,0 +1,68 @@
+/*cascating Stylesheet*/
+* {
+  margin: 0;
+}
+
+html,
+body {
+  display: grid;
+  place-items: center;
+  font-family: 'open sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  --lightlilac: hsl(241, 84%, 98%);
+}
+main {
+  background: url(Imagens/Mobile.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
+}
+.container {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--lightlilac);
+  text-align: center;
+}
+
+.avatar {
+  margin: 11rem auto 0;
+  position: relative;
+}
+
+.avatar span {
+  position: absolute;
+  top: -15px;
+}
+
+.sizeimage {
+  width: 11.5rem;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+a {
+  color: var(--lightlilac);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+ul {
+  margin-top: 4rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
